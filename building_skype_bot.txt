@@ -1,0 +1,19 @@
+Skype Bot using node.js
+
+Initialize as a npm project:
+    npm init
+this will create a package.json file.
+
+Install restify into the repository as the REST framework:
+    npm install --save restify
+
+You should add  to .gitignore
+
+You have to get the Skype API https://microsoft.sharepoint.com/teams/SkypeSMS/Shared%20Documents/Agents/skype-sdk.tar.gz
+Install the Skype API for node.js:
+    npm install --save <path>/skype-sdk.tar.gz
+
+Write the JavaScript to drive the bot using the Skype SDK.
+?? get the URL for the example.
+
+

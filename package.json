@@ -1,0 +1,23 @@
+{
+  "name": "healthcoach_skypebot",
+  "version": "1.0.0",
+  "description": "Motivational interviewing conversational agent for Skype",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdent/healthcoach_skypebot.git"
+  },
+  "author": "Kyle Dent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdent/healthcoach_skypebot/issues"
+  },
+  "homepage": "https://github.com/kdent/healthcoach_skypebot#readme",
+  "dependencies": {
+    "restify": "^4.1.1",
+    "skype-sdk": "file:///Users/kdent/Downloads/skype-sdk.tar.gz"
+  }
+}
