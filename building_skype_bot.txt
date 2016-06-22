@@ -14,6 +14,28 @@ Install the Skype API for node.js:
     npm install --save <path>/skype-sdk.tar.gz
 
 Write the JavaScript to drive the bot using the Skype SDK.
-?? get the URL for the example.
+See server.js here https://developer.microsoft.com/en-us/skype/bots/docs/tutorials/simple-nodejs
 
+You will need a Bot ID, App ID, and App secret to run the server. You get those
+by registering. ??Which of the three different places gives you which?
 
+Write up the three different places the bot has to be registered.
+Bot Framework
+Microsoft App
+Skype Bot
+
+The backend code has to be hosted somewhere using SSL with officially signed
+cert. I used ngrok successfully to host it locally. ?? get the URL for ngrok
+
+Setting the environment variable
+    set DEBUG=skype-sdk*
+
+(yes with the asterisk) gives you debugging output from the SDK
+
+I'm creating a LUIS (https://www.luis.ai) application called Health Coach.
+
+Enable Action Binding to MS Bot Framework:
+app id: bea3b9f7-c53e-4857-b1fb-18dff17bf098
+app secret: 75605898b4974d65a740afdca43d6702
+
+These came from where I registered the app in the Bot Framework.
