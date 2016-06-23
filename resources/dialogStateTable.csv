@@ -1,0 +1,7 @@
+,greeting,dietIntent,nonSpecificIntent,exerciseGenerally,exerciseActivity,yes,no,uncertain
+confirmDialog,receivedGreeting,dietIntent,nonSpecificIntent,exerciseGenerally,exerciseActivity,receivedGreeting,,
+exerciseGeneralExpressed,,,,,,,,
+exerciseSpecificGiven,,,,,,,,
+dietGoalExpressed,,,,,,,,
+startDayGiven,,,,,,,,
+scheduleGiven,,,,,,,,
