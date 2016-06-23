@@ -4,7 +4,6 @@ const fs = require('fs');
 const restify = require('restify');
 const skype = require('skype-sdk');
 const luisHost = 'api.projectoxford.ai';
-//const luisHost = 'encrypted.google.com';
 const luisPath = '/luis/v1/application';
 const luisIdParams = 'id=825a810c-8e48-4e37-a73e-6bbaa758a0d3&subscription-key=e0ef50cf20ae4a14b33b88b73b9f9837';
 
@@ -56,13 +55,13 @@ botService.on('personalMessage', (bot, data) => {
         });
 
         response.on('end', function () {
-            bot.reply('Intent info: ' + str, true);
+            intentData = JSON.parse(str);
+            bot.reply('Top Intent: ' + intentData.intents[0].intent, true);
             console.log(str);
         });
 
     });
     req.end();
-    console.log("past request");
 
     req.on('error', (e) => {
         console.error(e);
