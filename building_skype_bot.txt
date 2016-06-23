@@ -20,12 +20,13 @@ You will need a Bot ID, App ID, and App secret to run the server. You get those
 by registering. ??Which of the three different places gives you which?
 
 Write up the three different places the bot has to be registered.
-Bot Framework
-Microsoft App
-Skype Bot
+Bot Framework https://dev.botframework.com/
+Microsoft Application Registration Portal https://apps.dev.microsoft.com/#/appList 
+Skype Bot https://developer.microsoft.com/en-us/skype/bots/manage
 
 The backend code has to be hosted somewhere using SSL with officially signed
-cert. I used ngrok successfully to host it locally. ?? get the URL for ngrok
+cert. I used ngrok successfully to host it locally. https://ngrok.com/
+    ngrok http 8080
 
 Setting the environment variable
     set DEBUG=skype-sdk*
@@ -33,6 +34,7 @@ Setting the environment variable
 (yes with the asterisk) gives you debugging output from the SDK
 
 I'm creating a LUIS (https://www.luis.ai) application called Health Coach.
+My application list: https://www.luis.ai/ApplicationList
 
 Enable Action Binding to MS Bot Framework:
 app id: bea3b9f7-c53e-4857-b1fb-18dff17bf098
